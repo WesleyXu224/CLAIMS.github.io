@@ -31,8 +31,8 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
-
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22bold%22 font-family=%22Arial,sans-serif%22 fill=%22%23363636%22>C</text></svg>">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -179,7 +179,26 @@
     </div>
   </div>
 </section>
-
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Physics-based humanoid control relies on training with motion datasets that have diverse data distributions. However, the fixed difficulty distribution of datasets limits the performance ceiling of the trained control policies. Additionally, the method of acquiring high-quality data through professional motion capture systems is constrained by costs, making it difficult to achieve large-scale scalability.
+          </p>
+          <p>
+            To address these issues, we propose a closed-loop automated motion data generation and iterative framework, <strong>CLAIMS</strong>. It can generate high-quality motion data with rich action semantics, including martial arts, dance, combat, sports, gymnastics, and more.
+          </p>
+          <p>
+            Furthermore, our framework enables difficulty iteration of policies and data through physical metrics and objective evaluations, allowing the trained tracker to break through its original difficulty limits. On the PHC single-primitive tracker, using only approximately 1/10 of the AMASS dataset size, the average failure rate on the test set (2201 clips) is reduced by 45% compared to the baseline.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="section">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">1. Evolution of Tracking Capability on Dynamic Kicks</h2>
